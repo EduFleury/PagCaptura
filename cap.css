@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body{
+	background: #051821 url(fundoindex.png) no-repeat;
+}
+
+/*container*/
+.container{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	align-items: center;
+	margin: 40px auto;
+}
+
+/*descrição*/
+.descricao{
+	background: #1a4645;
+	border-radius: 10px;
+	padding: 10px;
+	width: 300px;	
+	margin: 20px;
+}
+
+.descricao h1{
+	color: #051821;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+hr{
+	color: #051821;
+	margin-bottom: 10px;
+}
+
+.descricao p{
+	color: #f8bc24;
+	text-align: center;
+}
+
+/*formulário*/
+
+.formulario{
+	background: #1a4645;
+	width: 300px;
+	height: 400px;
+	border-radius: 10px;
+}
+
+.formulario h1{
+	margin: 0 25px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #f8bc24;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+}
+
+.form .beforeinput{
+	font-size: 20px;
+	margin: 0 25px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.form input{
+	border: 1px solid #ccc;
+	padding: 10px;
+	width: 250px;
+	margin: 0 25px;
+	margin-bottom: 10px;
+	border-radius: 7px;
+}
+
+.form .beforeinput{
+	color: #f58800;
+}
+
+.btn{
+	background: #051821;
+	color: #f8bc24;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-left: -25px;
+}
+
+.btn:hover{
+	background: #f8bc24;
+	color: #051821;
+}
